@@ -100,7 +100,7 @@ a#gmic-beijing {left: 46px; width:200px;}
 a#gmic-sv {left: 250px; width:224px;}
 a.chinese {right:0; width:48px;}
 #container { text-align: left; margin: 0 auto; width: 960px; position: relative; }
-	#logo-area { float: left; margin-bottom: 21px; margin-top: 12px;}
+	#logo-area { float: right; margin-bottom: 15px; margin-top: 0px;}
 		#logo { float: left; font-weight: bold; font-size: 34px; text-transform: uppercase; }
 			#logo a { color: #676761; text-decoration: none; }
 		#logo-area h2 { float: left; font-weight: normal; text-transform: uppercase; font-size: 14px; padding: 16px 0 0; letter-spacing: 0; }
@@ -115,7 +115,7 @@ a.chinese {right:0; width:48px;}
 			#top-menu > ul > li.current-menu-item > a { font-weight: lighter; }
 	#phone { position: absolute; right: 0; top: -16px; font-style: italic; }	
 	#main-area { margin-bottom: 0px; background-color: #fff; background-color: rgba(255, 255, 255, 0.4); /*-webkit-box-shadow: 0px 0 4px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0 4px rgba(0, 0, 0, 0.1); box-shadow: 0px 0 4px rgba(0, 0, 0, 0.1); */}	
-	.page-template-page-landing-php #main-area, .page-template-page-landing-chn-php #main-area { background: rgba(255, 255, 255, 0.4) url(images/sanjose.jpg) center bottom no-repeat; }
+	/*.page-template-page-landing-php #main-area, .page-template-page-landing-chn-php #main-area { background: rgba(255, 255, 255, 0.4) url(images/sanjose.jpg) center bottom no-repeat; }*/
 		#featured { margin-bottom:48px; position: relative; }
 			#left-arrow, #right-arrow { position: absolute; text-indent: -9999px; top: 50%; margin-top: -18px; width: 28px; height: 37px; display: block; }
 			#left-arrow { left: 65px; background:url(images/left-arrow.png) no-repeat; }
@@ -172,7 +172,12 @@ a.chinese {right:0; width:48px;}
 						.page-template-page-landing-php .post-content p, .page-template-page-landing-chn-php .post-content p { font-size: 16px; font-weight: normal; color: #0b60ae;}
 						body .page-template-page-landing-chn-php, body .page-template-page-landing-chn-php a {font-family:"微软雅黑", "Adobe Heiti Std";}
 						.page-template-page-landing-chn-php .post-content p, .page-template-page-landing-chn-php .post-content h2 {font-family:"微软雅黑", "Adobe Heiti Std";}
-						.post-content p.silicon {font-size:19px; line-height: 30px;}
+						.post-content p.silicon {font-size:19px; line-height: 56px;}
+							.post-content p.silicon span.stats {font-size: 54px; }
+							span.stats.two {padding-left:67px;}
+							span.stats.three {padding-left:80px;}
+							span.stats.four {padding-left:103px;}
+							.post-content p.silicon .stats span {font-family: "OstrichSansRounded"; padding-left:4px;}
 						.post-content p.beijing {padding-top: 12px; font-size:19px; line-height: 30px;}
 						.post-content p.beijing img {float: right; margin: -68px 0 -30px 48px; }
 						.readmore { font-weight: bold; text-transform: uppercase; font-size: 14px; color: #676761; display: block; text-align: right; }
@@ -313,7 +318,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 .footer_wrap { background: transparent url("images/whitebar.png") 0px -18px no-repeat;padding-top:47px;}
 	
 #main_footer { background: transparent url("images/bluebar.png") left bottom no-repeat;padding: 26px 0 38px 0;}
-#main_footer {margin-bottom: 85px;}
+
 	/*---------------------[back to top button]-------------------*/
 	.home #backtotop {visibility: hidden;}
 	#backtotop {
@@ -789,6 +794,10 @@ body.tax-project_category .wp-pagenavi { border-top: 1px solid #F0F0E5; padding:
 	.post-content p.silicon img { width: 380px;}
 	.post-content p.beijing img { margin-top: -16px;}
 	
+	.post-content p.silicon {font-size:19px; line-height: 34px;}
+	.post-content p.silicon span.stats {font-size: 32px; }
+	span.stats.one, span.stats.two, span.stats.three, span.stats.four {padding:0px;}
+	
 	#breadcrumbs {height: 48px;}
 	#breadcrumbs #top-menu {height: 48px;}
 }
@@ -866,6 +875,10 @@ width: 146px;
 margin: 0 auto 0 auto;
 }
 #logo-area {margin-bottom: 0;}
+    .post-content p.silicon {font-size:19px; line-height: 40px;}
+	.post-content p.silicon span.stats {font-size: 38px; }
+	span.stats.one, span.stats.two, span.stats.three, span.stats.four {padding:0px;}
+
 }
 
 @media only screen and ( max-width: 479px ) {
@@ -908,6 +921,9 @@ margin: 0 auto 0 auto;
 	.page-template-page-landing-php .page_title.sanjose span {font-size: 22px;}
 	
 	.post-content p.silicon, .post-content p.beijing {font-size: 16px; line-height:26px;}
+	.post-content p.silicon {font-size:19px; line-height: 26px;}
+	.post-content p.silicon span.stats {font-size: 24px; }
+	span.stats.one, span.stats.two, span.stats.three, span.stats.four {padding:0px;}
 }
 
 

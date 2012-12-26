@@ -63,8 +63,7 @@ echo $image[0]; ?>" />
 	<div id="top-bar"><div class="holder">
 		<a href="http://www.thegmic.com" id="thegmic"></a>
 		<a href="http://gmic.greatwallclub.com" id="gmic-beijing"></a>
-		<a href="http://www.gmic-sv.com" id="gmic-sv"></a>
-		<a href="http://www.thegmic.com" class="chinese"></a>
+		<a href="http://sv.thegmic.com" id="gmic-sv"></a>
 		</div></div>
 	<div id="container">
 		<?php do_action('et_header_top'); ?>
@@ -77,9 +76,9 @@ echo $image[0]; ?>" />
 				<h2><?php bloginfo( 'description' ); ?></h2>
 			</hgroup>
 			
-			<a href="http://www.gmic-sv.com/sponsorship/" id="sponsor" class="action-button" style="float: right;"><span class="color" style="padding-left: 16px;"><span class="text" style="font-size: 32px; padding: 12px 23px 14px 17px;"><?php esc_html_e( 'Email Updates', 'Flexible' ); ?></span></span></a>
-			<a href="http://www.gmic-sv.com" class="action-button" target="_blank" id="gmic-sv-brochure" style="float:right;clear:right;margin-top:2px;margin-left:5px;"><span class="color"><span class="text">Visit GMIC SV 2012</span></span></a>
-			<p class="social-buttons" style="float: right; clear: right;"><a id="fb" href="http://www.facebook.com/theGMIC" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/images/social-buttons.png" /></a><a id="tt" href="http://www.twitter.com/theGMIC" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/social-buttons-02.png" /></a><a id="in" href="http://www.linkedin.com/groups?gid=2825839&trk=hb_side_g" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/social-buttons-03.png" /></a><a id="em" href="mailto: info@gmic-sv.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/social-buttons-05.png" /></a></p>
+			<a href="http://eepurl.com/oBjxj" id="sponsor" class="action-button"><span class="color" style="padding-left: 16px;"><span class="text" style="font-size: 32px; padding: 12px 23px 14px 17px;"><?php esc_html_e( 'Email Updates', 'Flexible' ); ?></span></span></a>
+			<a href="http://www.gmic-sv.com" class="action-button" target="_blank" id="gmic-sv-brochure" style="clear:left;margin-top:2px;"><span class="color"><span class="text">Visit GMIC SV 2012</span></span></a>
+			<p class="social-buttons clearfix"><a id="fb" href="http://www.facebook.com/theGMIC" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/images/social-buttons.png" /></a><a id="tt" href="http://www.twitter.com/theGMIC" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/social-buttons-02.png" /></a><a id="in" href="http://www.linkedin.com/groups?gid=2825839&trk=hb_side_g" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/social-buttons-03.png" /></a><a id="em" href="mailto: info@gmic-sv.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/social-buttons-05.png" /></a></p>
 			<?php if ( ( $phone_num = et_get_option('flexible_phone_num') ) && '' != $phone_num ) echo '<span id="phone">' . $phone_num . '</span>'; ?>		
 		</header> 
 		<div id="main-area">

@@ -1,7 +1,7 @@
 			</div> 	<!-- end #main-area -->
 		
 		<footer id="main_footer" class="clearfix">
-			<p id="copyright"><span style="font-size:22px;">Contact Us</span><br />Great Wall Club Inc (US)<br /><a href="mailto: info@gmic-sv.com" title="Email Us" target="_blank">info@gmic-sv.com</a><br /><a href="http://www.facebook.com/theGMIC" target="_blank">www.facebook.com/theGMIC</a><br /><a href="http://www.twitter.com/theGMIC" target="_blank">Twitter: @theGMIC</a><br />565 Clyde Ave, Suite 600, Mountain View, CA, 94043<br />Copyright © GMIC SV - All rights reserved.</p>
+			<p id="copyright"><span style="font-size:22px;">Contact Us</span><br /><a href="mailto: info@gmic-sv.com" title="Email Us" target="_blank">info@gmic-sv.com</a><br /><a href="http://www.facebook.com/theGMIC" target="_blank">www.facebook.com/theGMIC</a><br /><a href="http://www.twitter.com/theGMIC" target="_blank">Twitter: @theGMIC</a><br />565 Clyde Ave, Suite 600, Mountain View, CA, 94043<br />Copyright © GMIC SV - All rights reserved.</p>
 		</footer> <!-- end #main_footer -->
 	</div> <!-- end #container -->
 <div id="bg">
