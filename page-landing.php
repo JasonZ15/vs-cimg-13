@@ -42,7 +42,7 @@ Template Name: Landing Page
 <b>Participation from Startups All Over the World</b><br />
 · 100 apps from 14 countries participating in appAttack<br />
 · Over 30,000 Facebook votes for appAttack submissions<br />
-· 20 competiting startups from 10 countries in G-Startup<br /><br />
+· 20 competing startups from 10 countries in G-Startup<br /><br />
 <b>Media Stats</b><br />
 · 121 Registered US and International Media<br />
 · 364 web articles<br />
